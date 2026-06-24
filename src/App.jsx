@@ -1,5 +1,8 @@
 const App = function () {
-  return (<h1>Hello World</h1>)
+  return <div>
+    <h1 style={{ color: "blue" }}>Hello World</h1>
+    <h1>Hello World</h1>
+  </div>
 }
 
 export default App
